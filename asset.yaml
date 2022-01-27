@@ -193,6 +193,11 @@ spec:
       bucket:
         resourceFieldRef:
           schemaName: spica-dating-asset-interests-bucket
+    fcm_token:
+      type: string
+      description: Description of the fcm_token input
+      options:
+        position: bottom
   acl:
     write: true==true
     read: true==true
